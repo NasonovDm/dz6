@@ -1,4 +1,8 @@
 package dz6;
 
-public class Cat {
+    class Cat extends Animal{
+
+        public Cat(int runDistance, int swimDistance, float jumpHeight) {
+            super(runDistance, swimDistance, jumpHeight);
+        }
 }
